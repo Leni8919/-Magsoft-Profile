@@ -1,0 +1,10 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  background: {
+    image: asset_url('mag-background.jpg');
+  }
+  border-radius: 60px;
+  margin-top: -60px;
+}

@@ -1,0 +1,23 @@
+h1, h2, h3 {
+ color: $mag-blue;
+ font-weight: bolder;
+}
+
+p {
+  color: $mag-grey;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fcfcfcff !important;
+}

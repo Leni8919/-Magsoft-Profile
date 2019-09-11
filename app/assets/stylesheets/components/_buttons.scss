@@ -1,0 +1,21 @@
+.btn-mag {
+  color: white;
+  font-weight: lighter;
+  padding: 4px 22px;
+  font-size: 20px;
+  border-radius: 50px;
+  box-shadow: 0px 10px 15px 0px rgba(73, 160, 120, 0.75);
+}
+
+.btn-green {
+  background-color: $mag-green;
+  transition: all 0.5s ease-out;
+}
+
+.btn-mag:hover {
+  background-color: $darker-mag-green;
+  text-decoration: none;
+  color: white;
+}
+
+
