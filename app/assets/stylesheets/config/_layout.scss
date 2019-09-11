@@ -8,6 +8,16 @@ p {
   font-weight: 400;
 }
 
+p a {
+  color: $mag-blue;
+  transition: all 0.5s ease-out;
+}
+
+p a:hover {
+  text-decoration: none;
+  color: $mag-green;
+}
+
 a {
   text-decoration: none;
   font-size: 16px;
@@ -20,13 +30,15 @@ a:hover {
 
 body {
   background-color: #fcfcfcff !important;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
 }
 
 .page-content {
   margin-top: 55px;
   margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 200px;
+  margin-right: 400px;
 }
 
 @media (max-width: 400px) {
@@ -45,3 +57,4 @@ body {
     display: block;
   }
 }
+

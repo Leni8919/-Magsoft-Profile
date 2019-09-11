@@ -1,9 +1,18 @@
 .avt-home {
   position: absolute;
-  top: 170px;
+  top: 240px;
   left: 48px;
 }
 
 #btn-contact {
   margin-bottom: 45px;
+}
+
+.blue-short {
+  border: none;
+  background-color: $mag-blue;
+  height: 6px;
+  width: 100px;
+  margin-left: 0px;
+
 }
