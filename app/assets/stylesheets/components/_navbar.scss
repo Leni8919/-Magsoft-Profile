@@ -1,12 +1,29 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar-mag {
+  margin-left: 75px;
+  margin-top: 60px;
+  margin-right: 40px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-tab {
+  color: $mag-blue;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  line-height: 2;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-tab:hover {
+  text-decoration: none;
+  color: $mag-blue;
+  margin-bottom: 20px;
+}
+
+.dropdown-menu {
+  border: none;
+  background-color: #fcfcfcff;
+  margin-left: 75px;
+}
+
+#navbarDropdown {
+  color: $mag-green;
 }
