@@ -1,19 +1,21 @@
 <div class="navbar-mag">
 
 
-
-  <div class="nav-item dropdown">
-    <h1>Menu</h1>
-    <div class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" x-placement="bottom-end">
-
-      </div>
-    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-      <%= link_to 'Home', '#', class:'navbar-tab' %>
-      <%= link_to 'Publications', '#', class:'navbar-tab' %>
-      <%= link_to 'Projects', '#', class:'navbar-tab' %>
-      <%= link_to 'Source code', '#', class:'navbar-tab' %>
-      <%= link_to 'Resume', '#', class:'navbar-tab' %>
-      <%= link_to 'Contact', '#', class:'navbar-tab' %>
-    </div>
+  <h2 type="" class="dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+    Menu
+  </h2>
+  <div class="dropdown-menu dropdown-menu-right">
+    <%= link_to 'Home', '#', class:'navbar-tab dropdown-item' %>
+    <%= link_to 'Publications', '#', class:'navbar-tab dropdown-item' %>
+    <%= link_to 'Projects', '#', class:'navbar-tab dropdown-item' %>
+    <%= link_to 'Source code', '#', class:'navbar-tab dropdown-item' %>
+    <%= link_to 'Resume', '#', class:'navbar-tab dropdown-item' %>
+    <%= link_to 'Contact', '#', class:'navbar-tab dropdown-item' %>
   </div>
+
+
 </div>
+
+
+
+

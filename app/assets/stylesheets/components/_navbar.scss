@@ -21,9 +21,20 @@
 .dropdown-menu {
   border: none;
   background-color: #fcfcfcff;
-  margin-left: 75px;
+  right: auto;
+  top: auto;
 }
 
 #navbarDropdown {
   color: $mag-green;
+}
+
+.dropdown-item {
+  padding-left: 0px;
+  transition: all 0.5s ease-out;
+}
+
+.dropdown-item:hover {
+  color: $mag-green;
+  background-color: #fcfcfcff;
 }
