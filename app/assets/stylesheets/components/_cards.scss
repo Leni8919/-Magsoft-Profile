@@ -38,13 +38,16 @@
   .card-project {
   display: block;
 
-  .img-container {
+  .project-desc {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  .img-mob {
     display: flex;
     justify-content: center;
   }
 
-    img {
 
-    }
   }
 }
