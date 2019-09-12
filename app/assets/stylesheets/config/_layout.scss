@@ -39,6 +39,10 @@ body {
   margin-top: 55px;
   margin-left: 100px;
   margin-right: 400px;
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 400px) {

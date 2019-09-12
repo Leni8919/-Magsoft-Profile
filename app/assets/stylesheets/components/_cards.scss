@@ -1,0 +1,50 @@
+.card-project {
+  display: flex;
+  margin-bottom: 60px;
+  align-items: center;
+
+  .img-container {
+    display: flex;
+    align-items: center;
+    background-color: #fcfcfcff;
+    height: 170px;
+    width: 170px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    transition: all 0.5s ease-out;
+  }
+
+  .img-container:hover {
+    transform : scale(1.1);
+  }
+
+  img {
+    object-fit: contain;
+    height: 70px;
+    width: 170px;
+
+  }
+
+  .project-desc {
+    margin-left: 60px;
+  }
+
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-project {
+  display: block;
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+    img {
+
+    }
+  }
+}
