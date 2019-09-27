@@ -7,9 +7,7 @@ Rails.application.routes.draw do
   get '/projects', to: 'pages#projects'
   get '/source-code', to: 'pages#source-code', as: 'source-code'
   get '/resume', to: 'pages#resume'
-  #get '/contact', to: 'pages#contact'
 
-  resources :contact, only: [:index, :new, :create]
 
 
 end
