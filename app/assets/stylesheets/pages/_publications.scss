@@ -33,3 +33,9 @@
 #web3d10-logo{
   height: 340px;
 }
+
+@media (max-width: 400px) {
+  .img-publication {
+    height: 200px !important;
+  }
+}
