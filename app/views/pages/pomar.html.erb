@@ -1,0 +1,42 @@
+
+<div class="page-content">
+
+  <div class="hp-hearders" style="margin-bottom: 50px">
+    <div>
+      <h1>Compression of Progressive Oriented Meshes Accessible Randomly - POMAR </h1>
+      <hr class="blue-short">
+    </div>
+    <div class="btn-contact-box">
+      <%= link_to'POMAR_src_v0.1.zip' do %>
+      <button class="btn-mag btn-green">DOWNLOAD<br> SOURCE CODE </button>
+      <% end %>
+    </div>
+  </div>
+
+
+    <div>
+      <h2>Presentation</h2>
+      <p>POMAR is the author implementation of the algorithm presented in the article "POMAR: Compression of Progressive Oriented Meshes Accessible Randomly" (see my <%= link_to 'publication page', publications_path, target:"_blank" %>). This software is released under the GPL v3 license (see COPYING). Please note that this is research code. It is only provided as a proof of concept of the ideas described in the research paper. The quality and the performances of this program can certainly be improved.</p>
+    </div>
+
+    <div>
+      <h2>Download</h2>
+      <p>You can download the source code <%= link_to 'here', 'POMAR_src_v0.1.zip'  %>. For now, it has only been tested on Linux 64 bits.</p>
+      <p>Instructions about the compilation and the usage are in the README file of the source archive.</p>
+    </div>
+
+    <div>
+      <h2>Warning</h2>
+      <p>On some platforms, the OpenGL method used to pick the clusters to refine is very slow. Therefore, you might experience very slow decompression. This is not due to the decompression algorithm but to your graphic drivers that do not implement fast OpenGL selection. The real time taken by the algorithm to decompress the data is displayed in the terminal output.</p>
+    </div>
+
+    <div>
+      <h2>Acknowledgements</h2>
+      <p>This work has been founded by French National Research Agency (ANR) through COSINUS program (project COLLAVIZ no. ANR-08-COSI-003) and the LRC with the CEA DAM DIF.</p>
+    </div>
+
+
+</div>
+
+
+
