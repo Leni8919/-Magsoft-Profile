@@ -19,6 +19,7 @@
     </div>
   </div>
 
+  <%= link_to pomar_path do  %>
   <div class="card-project">
     <div class="img-mob">
       <div class="" >
@@ -30,11 +31,13 @@
       <p>Adrien Maglo, Ian Grimstead and Céline Hudelot.</p>
       <p>In Computer & Graphics, Proceedings of Shape Modeling International 2013, Bournemouth, United Kingdom, July 2013.</p>
       <p><%= link_to 'Preprint', '/SMI13.pdf', target: "_blank" %></p>
-      <p><%= link_to 'Source code', pomar_path %></p>
       <p><%= link_to 'Video demonstration', '/POMARdemo1.mp4', target: "_blank" %></p>
+      <p><%= link_to 'Source code', pomar_path %></p>
     </div>
   </div>
+  <% end %>
 
+  <%= link_to ppmc_path do  %>
   <div class="card-project">
     <div class="img-mob">
       <div class="" >
@@ -46,10 +49,11 @@
       <p>Adrien Maglo, Clément Courbet, Pierre Alliez and Céline Hudelot.</p>
       <p>In Computer & Graphics, Proceedings of Shape Modeling International 2012, College Station, USA, May 2012.</p>
       <p><%= link_to 'Preprint', '/SMI12.pdf', target: "_blank" %></p>
-      <p><%= link_to 'Source code', ppmc_path %></p>
       <p><%= link_to 'Video demonstration', '/PPMC.mp4', target: "_blank" %></p>
+      <p><%= link_to 'Source code', ppmc_path %></p>
     </div>
   </div>
+  <% end %>
 
   <div class="card-project">
     <div class="img-mob">
@@ -61,7 +65,7 @@
       <h3>Cluster-based Random Accessible and Progressive Lossless Compression of Colored Triangular Meshes for Interactive Visualization.</h3>
       <p>Adrien Maglo, Ian Grimstead and Céline Hudelot.</p>
       <p>In Proceedings of Computer Graphics International 2011, Ottawa, Canada, June 2011.</p>
-      <p><%= link_to 'Paper', '#'  %></p>
+      <p><%= link_to 'Paper', '/randomProgressiveCompressionCGI.pdf'  %></p>
       <p><%= link_to 'Video demonstration', '#'  %></p>
     </div>
   </div>
@@ -76,7 +80,7 @@
       <h3>Remote scientific visualization of progressive 3D meshes with X3D. In Proceedings of the 15th international Conference on Web 3D Technology</h3>
       <p>Adrien Maglo, Guillaume Lavoué, Céline Hudelot, Ho Lee, Christophe Mouton and Florent Dupont.</p>
       <p>In Proceedings of Web3D '10, New York, USA, 109-116.</p>
-      <p><%= link_to 'Preprint', '#'  %></p>
+      <p><%= link_to 'Preprint', '/Web3D10.pdf'  %></p>
       <p><%= link_to 'Video demonstration', '#'  %></p>
     </div>
   </div>

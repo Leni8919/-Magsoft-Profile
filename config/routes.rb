@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/resume', to: 'pages#resume'
   get '/pomar', to: 'pages#pomar'
   get '/ppmc', to: 'pages#ppmc'
+  get '/contact', to: 'pages#contact'
 
 
 
