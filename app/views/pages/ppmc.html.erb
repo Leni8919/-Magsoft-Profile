@@ -1,0 +1,67 @@
+
+<div class="page-content">
+
+  <div class="hp-hearders" style="margin-bottom: 50px">
+    <div>
+      <h1>Progressive Polygon Mesh Compression - PPMC </h1>
+      <hr class="blue-short">
+    </div>
+    <div class="btn-dl-box">
+      <%= link_to'PPMC_src_v0.1.zip' do %>
+      <button class="btn-mag btn-green">DOWNLOAD<br> SOURCE CODE </button>
+      <% end %>
+    </div>
+  </div>
+
+  <div class='ill-pub'>
+    <%= image_tag "elephantDecomp.png", alt: "elephant Decomp" %>
+  </div>
+
+
+  <div>
+    <h2>Presentation</h2>
+    <p>PPMC is a progressive mesh compression algorithm. Unlike previous approaches, it can compress manifold meshes with arbitrary face degrees. This software is the author implementation of the algorithm presented in the article "Progressive Compression of Surface Polygon Meshes" (see my <%= link_to 'publication page', publications_path%>). It is released under the GPL v3 license.</p>
+    <p>Please note that that is research code. It is only provided as a proof of concept of the ideas described in the research paper. The quality and the performances of this program can certainly be improved.</p>
+  </div>
+
+  <div>
+    <h2>Download</h2>
+    <p>You can download the source code <%= link_to 'here', 'PPMC_src_v0.1.zip'  %>. For now, it has only been tested on Linux 64 bits.</p>
+    <p>Instructions about the compilation and the usage are in the README file of the source archive.</p>
+  </div>
+
+  <div>
+    <h2>Screen captures</h2>
+    <p>Here are two screen captures of the PPMC GUI (--gui option).</p>
+  </div>
+
+  <div class='ill-pub'>
+    <%= image_tag "PPMCcap1.png", alt: "PPMCcap1" %>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <p>Initial mesh before the compression.</p>
+  </div>
+
+    <div class='ill-pub'>
+    <%= image_tag "PPMCcap2.png", alt: "PPMCcap2" %>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <p>One level of details of the compressed mesh.</p>
+  </div>
+
+  <div>
+    <h2>Acknowledgements</h2>
+    <p>This work was initially supported by the French National Research Agency (ANR) through COSINUS program (project COLLAVIZ n◦ ANR-08-COSI-003, visit <%= link_to 'www.collaviz.org', 'http://www.collaviz.org', target:'_blank'  %>).</p>
+  </div>
+
+  <div>
+    <p style='margin-bottom: 0px'><%= link_to 'Preprint', '/SMI12.pdf', target: "_blank" %></p>
+    <p style='margin-bottom: 0px'><%= link_to 'Video demonstration', '/PPMC.mp4', target: "_blank" %></p>
+  </div>
+
+</div>
+
+
+

@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/source-code', to: 'pages#source-code', as: 'source-code'
   get '/resume', to: 'pages#resume'
   get '/pomar', to: 'pages#pomar'
+  get '/ppmc', to: 'pages#ppmc'
 
 
 

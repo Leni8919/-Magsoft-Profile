@@ -34,8 +34,20 @@
   height: 340px;
 }
 
+.ill-pub {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
 @media (max-width: 400px) {
   .img-publication {
     height: 200px !important;
+  }
+
+  .ill-pub {
+    img {
+      width: 100vw;
+    }
   }
 }
