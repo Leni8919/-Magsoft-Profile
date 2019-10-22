@@ -5,10 +5,42 @@
     <hr class="blue-short">
   </div>
 
-  <div>
-    <a href="https://github.com/magwyz"><i class="fab fa-github" target="_blank" rel="noopener noreferrer"></i></a>
-    <p>Find my latest work <br>on my Github account.</p>
+  <%= link_to "https://github.com/magwyz" do  %>
+  <div class="card-project">
+    <div class="img-mob">
+      <div>
+         <%= image_tag "github.png", alt: "logo Github", class:'img-publication', style:'height:150px; width:150px' %>
+      </div>
+    </div>
+    <div class="project-desc">
+      <h3>Find my latest work <br>on my Github account.</h3>
+    </div>
   </div>
+  <% end %>
 
-  <p> Still work in progress... Stay tuned!
+  <%= link_to pomar_path do  %>
+  <div class="card-project">
+    <div class="img-mob">
+      <div>
+        <%= image_tag "SMI13.png", alt: "SMI13-logo", class:'img-publication', style:'height:150px; width:150px' %>
+      </div>
+    </div>
+    <div class="project-desc">
+      <h3>POMAR: Compression of Progressive Oriented Meshes Accessible Randomly</h3>
+    </div>
+  </div>
+  <% end %>
+
+  <%= link_to ppmc_path do  %>
+  <div class="card-project">
+    <div class="img-mob">
+      <div>
+        <%= image_tag "SMI12.png", alt: "SMI12-logo", class:'img-publication', style:'height:150px; width:150px'%>
+      </div>
+    </div>
+    <div class="project-desc">
+      <h3>Progressive Compression of Manifold Polygon Meshes</h3>
+    </div>
+  </div>
+  <% end %>
 </div>

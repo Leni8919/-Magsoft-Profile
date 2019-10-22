@@ -1,9 +1,71 @@
 <div class="page-content">
 
-  <div class="page-headers">
-    <h1>My Resume</h1>
-    <hr class="blue-short">
+  <div class="page-headers resume-hearders">
+    <div>
+      <h1>My Resume</h1>
+      <hr class="blue-short">
+    </div>
+    <div class="btn-dl-box">
+      <%= link_to'resume.pdf' do %>
+      <button class="btn-mag btn-green resume-btn">DOWNLOAD IN PDF</button>
+      <% end %>
+    </div>
   </div>
 
-  <p> Still work in progress... Stay tuned!
+  <div class="resume-text">
+
+    <h2>Skills</h2>
+
+    <div class="mb-40px">
+      <p><b>Programming languages:</b> C, C++, Python, Rust, JAVA, SQL, XHTML/CSS, Javascript, Go.</p>
+      <p><b>Computer engineering:</b> Databases, Linux, multimedia, 3D computer graphics.</p>
+      <p><b>Mathematical tools:</b> Computer vision, data compression, image and video recognition, deep learning.</p>
+      <p><b>Programming frameworks:</b> OpenCV, Django, Android SDK and NDK, OpenGL, Qt.</p>
+    </div>
+
+  <h2>Work experiences</h2>
+
+  <div class="card-project">
+    <div class="img-mob">
+      <div>
+         <%= image_tag "github.png", alt: "logo Github", class:'img-publication', style:'height:150px; width:150px' %>
+      </div>
+    </div>
+    <div class="project-desc">
+      <h3>R&D lead at Videolabs SAS</h3>
+      <p><b>March 2016 to now - Paris, France</b></p>
+      <p>Contributions to the Mozilla open source AV1 video encoder (rav1e): motion estimation, AVX2 assembly.</p>
+      <p>Research and development of a video recognition application that matches medias by filming them with a mobile device.</p>
+      <p>Development of VR support in VLC Media player: 360° video, 3D sound, Virtual cinema mode and VR headsets.</p>
+      <p>Face recognition with deep neural networks.</p>
+      <p>Prototyping of a media recommendation platform based on metadata.</p>
+    </div>
+  </div>
+
+  <div class="card-project">
+    <div class="img-mob">
+      <div>
+         <%= image_tag "github.png", alt: "logo Github", class:'img-publication', style:'height:150px; width:150px' %>
+      </div>
+    </div>
+    <div class="project-desc">
+      <h3> CTO at Instadeo SAS</h3>
+      <p><b>March 2014 to January 2016 - Paris, France</b></p>
+      <p>Design and development of a video conference web platform based on WebRTC in Python 3 Django.</p>
+    </div>
+  </div>
+
+
+    <h2>Education</h2>
+
+
+
+    <h2>Languages</h2>
+
+
+
+    <h2>Personal interests</h2>
+  </div>
+
+
 </div>
