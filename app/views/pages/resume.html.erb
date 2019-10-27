@@ -2,33 +2,37 @@
 
   <div class="page-headers resume-hearders">
     <div>
-      <h1>My Resume</h1>
+      <h1>Resume</h1>
       <hr class="blue-short">
+      <p>Below is a snapshot of my resume. <br> To view in full, please download the pdf version.</p>
     </div>
     <div class="btn-dl-box">
-      <%= link_to'resume.pdf' do %>
-      <button class="btn-mag btn-green resume-btn">DOWNLOAD IN PDF</button>
+      <%= link_to'resume.pdf', target: "_blank" do %>
+      <button class="btn-mag btn-green resume-btn">DOWNLOAD FULL <br> RESUME IN PDF</button>
       <% end %>
     </div>
   </div>
 
   <div class="resume-text">
 
-    <h2>Skills</h2>
+  <h2 style="margin-bottom: 20px">Skills</h2>
 
-    <div class="mb-40px">
-      <p><b>Programming languages:</b> C, C++, Python, Rust, JAVA, SQL, XHTML/CSS, Javascript, Go.</p>
-      <p><b>Computer engineering:</b> Databases, Linux, multimedia, 3D computer graphics.</p>
-      <p><b>Mathematical tools:</b> Computer vision, data compression, image and video recognition, deep learning.</p>
-      <p><b>Programming frameworks:</b> OpenCV, Django, Android SDK and NDK, OpenGL, Qt.</p>
+    <div class="card-project mb20">
+      <div class="project-desc">
+        <p><b>Programming languages:</b> C, C++, Python, Rust, JAVA, SQL, XHTML/CSS, Javascript, Go.</p>
+        <p><b>Computer engineering:</b> Databases, Linux, multimedia, 3D computer graphics.</p>
+        <p><b>Mathematical tools:</b> Computer vision, data compression, image and video recognition, deep learning.</p>
+        <p><b>Programming frameworks:</b> OpenCV, Django, Android SDK and NDK, OpenGL, Qt.</p>
+      </div>
     </div>
 
-  <h2>Work experiences</h2>
+  <h2 style="margin-bottom: 20px">Work experiences</h2>
 
   <div class="card-project mb20">
     <div class="img-mob">
       <div>
-         <%= image_tag "github.png", alt: "logo Github", class:'img-publication', style:'height:150px; width:150px' %>
+         <%= image_tag "Videolabs.png", alt: "logo Videolabs", class:'img-publication', style:'height:200px; width:100px', id:'logo-videolabs'
+          %>
       </div>
     </div>
     <div class="project-desc">
@@ -45,7 +49,7 @@
   <div class="card-project mb20">
     <div class="img-mob">
       <div>
-         <%= image_tag "github.png", alt: "logo Github", class:'img-publication', style:'height:150px; width:150px' %>
+         <%= image_tag "instadeo.jpg", alt: "logo Instadeo", class:'img-publication', style:'height:100px; width:100px' %>
       </div>
     </div>
     <div class="project-desc">
@@ -58,7 +62,7 @@
   <div class="card-project mb20">
     <div class="img-mob">
       <div>
-         <%= image_tag "github.png", alt: "logo Github", class:'img-publication', style:'height:150px; width:150px' %>
+         <%= image_tag "visualink.png", alt: "logo Visualink", class:'img-publication', style:'height:100px; width:100px' %>
       </div>
     </div>
     <div class="project-desc">
@@ -69,15 +73,43 @@
     </div>
   </div>
 
-    <h2>Education</h2>
+    <h2 style="margin-bottom: 20px">Education</h2>
 
+    <div class="card-project mb20">
+      <div class="project-desc">
+        <h3 style="font-size: 20px"> Ph.D. in Computer Science at MAS Laboratory</h3>
+        <p><b>Ecole Centrale Paris</b></p>
+        <p>Subject: Progressive and Random Accessible Mesh Compression.</p>
+        <p>Propositions: Three new 3D mesh compression algorithms and a polygon mesh simplification method.</p>
+        <p>Results: four publications in international conferences and journals, two compression algorithms released.</p>
+      </div>
+    </div>
 
+    <div class="card-project mb20">
+      <div class="project-desc">
+        <h3 style="font-size: 20px">Master of Science (Diplôme d'ingénieur) </h3>
+        <p><b>Ecole Centrale Paris</b></p>
+        <p>General engineering courses with a major in electrical engineering and computer science.</p>
+      </div>
+    </div>
 
-    <h2>Languages</h2>
-
+    <h2 style="margin-bottom: 20px">Languages</h2>
+    <div class="card-project mb20">
+      <div class="project-desc">
+        <p><b>French:</b> mother tongue</p>
+        <p><b>English:</b> fluent</p>
+        <p><b>Spanish:</b> beginner</p>
+      </div>
+    </div>
 
 
     <h2>Personal interests</h2>
+    <div class="card-project mb20">
+      <div class="project-desc">
+        <p>Open source and free software development, startup ecosystem, cycling, jazz music.</p>
+      </div>
+    </div>
+
   </div>
 
 
